@@ -13,6 +13,7 @@ In your Protractor spec file, register protractor-expected-conditions-for-all-el
 <pre><code>
 // spec.js
 var ECAll = require('protractor-expected-conditions-for-all-elements')
+
 describe('Protractor Demo', function() {
     var history = element.all(by.repeater('result in memory'));
     it('should have a history', function() {
